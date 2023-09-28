@@ -40,5 +40,5 @@ jobs:
           context: .
           file: ./services/ner/Dockerfile
           push: true
-          tags: ghcr.io/dmitrijeuseew/ner:main
+          tags: ghcr.io/dmitrijeuseew/ner:dev
           labels: ${{ steps.meta.outputs.labels }}

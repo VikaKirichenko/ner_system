@@ -40,5 +40,5 @@ jobs:
           context: .
           file: ./services/entity_linking/Dockerfile
           push: true
-          tags: ghcr.io/dmitrijeuseew/entity_linking:main
+          tags: ghcr.io/dmitrijeuseew/entity_linking:dev
           labels: ${{ steps.meta.outputs.labels }}

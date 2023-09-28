@@ -36,4 +36,4 @@ WORKDIR /src
 
 COPY . .
 
-CMD python server.py
+CMD python services/entity_linking/server.py
